@@ -27,7 +27,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <div className="flex items-center gap-2">
           <img src="/logo.png" alt="Jagedo Summit Logo" className="h-8 w-auto" />
-          <span className="font-semibold text-lg text-blue-950">Jagedo Summit</span>
+          {/* <span className="font-semibold text-lg text-blue-950">Jagedo Summit</span> */}
         </div>
 
         {/* Desktop Buttons */}
