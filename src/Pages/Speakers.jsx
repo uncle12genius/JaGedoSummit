@@ -30,7 +30,7 @@ const speakers = [
 
 export default function Speakers() {
   return (
-    <section className="bg-orange-600 py-12 px-4 text-white">
+    <section className="bg-gradient-to-b from-[#005a9c] to-[#001f3f] py-12 px-4 text-white">
       <h2 className="text-3xl sm:text-4xl font-bold text-center mb-10">
         Meet our 2025 speakers
       </h2>

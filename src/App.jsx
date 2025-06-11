@@ -1,3 +1,5 @@
+
+import Footer from './Components/Footer';
 import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Hero from './Pages/Hero';
@@ -8,11 +10,15 @@ import Speakers from './Pages/Speakers';
 function App() {
   return (
     <>
+    <div>
      <Navbar/> 
      <Hero/> 
      <About/> 
      <Speakers/> 
-     <Schedule/> 
+     <Schedule/>
+     <Footer/>
+     
+    </div>
     </>
   );
 }
