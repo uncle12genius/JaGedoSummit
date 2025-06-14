@@ -32,7 +32,7 @@ const Navbar = () => {
 
         {/* Desktop Buttons */}
         <div className="hidden md:flex gap-3">
-          <Link to="/pre-register">
+          <Link to="/Register">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -41,11 +41,11 @@ const Navbar = () => {
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-6h13v6" />
               </svg>
-              Pre-register
+              Register Now
             </motion.button>
           </Link>
 
-          <Link to="/partner-with-us">
+          <Link to="/Partner">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -80,7 +80,7 @@ const Navbar = () => {
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-6h13v6" />
                 </svg>
-                Pre-register
+                Register Now
               </button>
             </Link>
 

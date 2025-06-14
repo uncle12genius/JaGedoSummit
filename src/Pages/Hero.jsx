@@ -1,6 +1,7 @@
 "use client";
-import React from "react";
+
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -30,16 +31,17 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center md:justify-start gap-4 pt-4">
-            <a href="#register" className="scroll-smooth">
+            <Link to="/register">
               <button className="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded font-medium">
                 Register now
               </button>
-            </a>
-            <a href="#partner" className="scroll-smooth">
+            </Link>
+
+            <Link to="/partner">
               <button className="bg-[#0077b6] hover:bg-[#005f8e] text-white px-6 py-3 rounded font-medium">
                 Partner with us
               </button>
-            </a>
+            </Link>
           </div>
         </motion.div>
 
