@@ -10,16 +10,16 @@ import Speakers from './Pages/Speakers';
 function App() {
   return (
     <>
-    <div>
-     <Navbar/> 
-     <Hero/> 
-     <About/> 
-     <Speakers/> 
-     <Schedule/>
-     <Footer/>
      
-    </div>
-    </>
+     
+     <Navbar />
+     <Hero />
+    <About />
+   <Speakers />
+    <Schedule />
+     <Footer />
+          </>
+        
   );
 }
 
