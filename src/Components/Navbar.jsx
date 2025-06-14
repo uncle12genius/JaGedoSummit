@@ -84,7 +84,7 @@ const Navbar = () => {
               </button>
             </Link>
 
-            <Link to="/partner-with-us">
+            <Link to="/Partner">
               <button className="bg-[#000072] text-white px-4 py-2 text-sm rounded flex items-center justify-center gap-1 hover:opacity-90 transition">
                 <svg className="w-4 h-4" fill="white" viewBox="0 0 20 20">
                   <path d="M3 3h14v14H3V3zm1 2v10h12V5H4zm6 2h2v2h-2V7zm-3 0h2v2H7V7z" />
